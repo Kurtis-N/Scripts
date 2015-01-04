@@ -7,7 +7,7 @@ ofn="$1.aes"
 #check for args
 if [ $# -eq 0 ]
   then
-    echo "No arguments supplied"
+    echo "No arguments supplied. Usage: >encrypt file.txt"
     exit
 fi
 
